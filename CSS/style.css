@@ -1,0 +1,138 @@
+*{margin: 0; box-sizing: border-box;}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+
+.display{
+    width: 400px;
+    text-align: center;
+    font-size: xx-large;
+    color: floralwhite;
+    background-color: darkslategray;
+    border-radius: 50px 50px 0 0;
+    position: relative;
+    
+}
+
+.minum{
+    width: 200px;
+    background-color: rgb(22, 83, 145);
+    text-align: center;
+    color: floralwhite;
+    font-size: xx-large;
+    user-select: none;
+    border-radius: 0 0 0 50px ;
+    position: relative;
+    height: 50px; 
+    transition-property: background-color;
+    transition-duration: 0.5s;   
+    
+    }
+
+.minum:hover{
+    background-color:  rgb(13, 41, 68); 
+}
+
+.plus{
+    width: 200px;
+    background-color:darkred;
+    text-align: center;
+    color: floralwhite;
+    font-size: xx-large;
+    user-select: none;
+    border-radius: 0 0 50px 0;
+    height: 50px;
+    transition-property: background-color;
+    transition-duration: 0.5s;    
+}
+
+.plus:hover{
+    background-color: rgb(65, 11, 11);
+}
+
+.minum10{
+    position: absolute;
+    right: 50%;
+    padding: 10px;
+    width: 60px;    
+    border-radius: 0 0 0 25px;
+    color: cornsilk;
+    font-size: large;
+    background-color:  rgb(13, 41, 68); 
+    user-select: none;   
+    display: flex;
+    justify-content: flex-end;
+    transition-property: background-color;
+    transition-duration: 0.2s;   
+}
+.minum10:hover{
+    background-color:  rgb(12, 20, 27);
+}
+
+.plus10{
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+    width: 60px;
+    border-radius: 0 0 25px 0;
+    color: cornsilk;
+    font-size:large;
+    background-color:  rgb(65, 11, 11);
+    user-select: none;   
+    display: flex;
+    justify-content: flex-start;
+    transition-property: background-color;
+    transition-duration: 0.2s;  
+}
+
+.plus10:hover{
+    background-color:  rgb(37, 3, 3);;
+}
+
+.reset{
+    position: relative;
+    
+    padding: 10px;
+    user-select: none;
+    
+   /* color: whitesmoke;*/
+    
+    
+    
+
+    
+    
+}
+
+.reset:active{
+    color: black;  
+}
+
+.reset:hover{
+    color: red
+}
+
+.plus:active,.plus10:active,.minum:active,.minum10:active{
+    background-color: darkslategray;
+}
+
+h1,h2{
+    margin: 20px;
+    }
+
+    .centra{
+        width: 380px;
+        
+        color: floralwhite;
+        
+        
+
+        display: flex;
+        flex-direction: row-reverse;
+        
+        position: absolute;
+    }
